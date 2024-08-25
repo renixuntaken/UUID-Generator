@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://www.transparenttextures.com/patterns/stardust.png"),
+    radial-gradient(circle, #020024, #090979, #00d4ff);
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  border-radius: 20px; /* Slightly increased border-radius for a more rounded look */
+  padding: 40px; /* Increased padding for a more spacious feel */
+  background: rgba(
+    0,
+    0,
+    0,
+    0.85
+  ); /* Slightly adjusted opacity for a smoother effect */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7); /* Enhanced shadow for more depth */
+  position: relative;
+  width: 80%; /* Adjusted width for better responsiveness */
+  max-width: 600px; /* Added max-width to prevent it from becoming too wide on larger screens */
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 3rem; /* Increased font-size for a more prominent heading */
+  font-family: "Comic Sans MS", cursive;
+}
+
+button {
+  background: linear-gradient(135deg, #8e2b80, #c24e91);
+  border: none;
+  border-radius: 10px; /* Slightly increased border-radius for a smoother button look */
+  color: #fff;
+  padding: 15px 30px; /* Increased padding for a larger button */
+  font-size: 1.2rem; /* Adjusted font-size for better readability */
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  margin: 10px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #c24e91, #8e2b80);
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Added shadow effect on hover */
+}
+
+p {
+  font-size: 1.4rem; /* Slightly larger font-size for better readability */
+  margin: 20px 0;
+  word-wrap: break-word;
+}
